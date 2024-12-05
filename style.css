@@ -2,17 +2,34 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #f2e7dd
 }
 
 header {
-    background-color: #333;
+    background-color: #d9b99f;
     padding: 10px;
 }
 
+#intro {
+    color: #292421;
+    text-align: center;
+}
+
+.credit {
+    color: #292421;
+    font-size: 12px;
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* Dropdown Button */
 .dropbtn {
-    background-color: #3498DB;
-    color: white;
+    background-color: #d9b99f;
+    color: #f2e7dd;
     padding: 10px 20px;
     font-size: 16px;
     border: none;
@@ -21,7 +38,7 @@ header {
 
 /* Button Hover Effect */
 .dropbtn:hover {
-    background-color: #2980B9;
+    background-color: #d9b99f;
 }
 
 /* Dropdown Container */

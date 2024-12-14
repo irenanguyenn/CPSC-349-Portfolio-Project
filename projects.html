@@ -5,42 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Projects</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Katibeh&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
-        <nav class="dropdown">
-            <button onclick="toggleDropdown()" class="dropbtn">☰</button>            <ul id="dropdownMenu" class="dropdown-content">
+        <div class="header-container">
+            <img src="img/logo.png" alt="Logo" class="logo">
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <div class="nav">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="projects.html">Projects</a>
                 <a href="skills.html">Skills</a>
                 <a href="contact.html">Contact</a>
-            </ul>
-        </nav>
+            </div>
+        </div>
     </header>
-
     
     <main>
         <section id="projects">
             <h1>My Projects</h1>
             <ul>
                 <li>
-                    <h2>Project 1</h2>
-                    <p>Description: A brief overview of this project.</p>
-                    <p>Technologies Used: HTML, CSS, JavaScript</p>
-                    <a href="project-detail.html">View Details</a>
+                    <h2>FTP Server and Client</h2>
+                    <a href="project-detail-one.html">
+                        <img src="img/imgbox.png" alt="ftpbox" class="imgbox">
+                    </a>
                 </li>
                 <li>
-                    <h2>Project 2</h2>
-                    <p>Description: A brief overview of this project.</p>
-                    <p>Technologies Used: HTML, CSS, JavaScript</p>
-                    <a href="project-detail.html">View Details</a>
+                    <h2>BackTracker</h2>
+                    <a href="project-detail-two.html">
+                        <img src="img/imgbox.png" alt="btbox" class="imgbox">
+                    </a>
                 </li>
             </ul>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Irena Nguyen. All rights reserved.</p>
+        <p class="credit">&copy; 2024 Irena Nguyen. All rights reserved.</p>
     </footer>
     <script src="script.js"></script>
 </body>

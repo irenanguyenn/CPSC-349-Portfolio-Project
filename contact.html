@@ -5,43 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Katibeh&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
-        <nav class="dropdown">
-            <button onclick="toggleDropdown()" class="dropbtn">☰</button>
-            <ul id="dropdownMenu" class="dropdown-content">
+        <div class="header-container">
+            <img src="img/logo.png" alt="Logo" class="logo">
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <div class="nav">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="projects.html">Projects</a>
                 <a href="skills.html">Skills</a>
                 <a href="contact.html">Contact</a>
-            </ul>
-        </nav>
+            </div>
+        </div>
     </header>
-
     
     <main>
         <section id="contact">
-            <h1>Contact Me</h1>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-            <p>Follow me on:</p>
+            <h1>Lets Work Together</h1>
+        </section>
+    
+        <!-- Contact form -->
+        <section class="contact-form">
+            <div class="form-container">
+                <h2>Your Details</h2>
+                <form action="#" method="POST">
+    
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="phone">Phone: </label>
+                    <input type="tel" id="phone" name="phone">
+    
+                    <label for="message">Message: </label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+    
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+            </div>
+        </section>
+        <section class="social">
             <ul>
-                <li><a href="https://github.com/irenanguyenn">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/irena-nguyen-a22ab1240/">LinkedIn</a></li>
+                <li><a href="https://github.com/irenanguyenn">
+                    <img src="github-mark-c791e9551fe4/github-mark/github-mark.png" alt="git" class="corplogo">
+                </a></li>
+                <li><a href="https://www.linkedin.com/in/irena-nguyen-a22ab1240/">
+                    <img src="LinkedIn-Logos/LinkedIn-Logos/LI-In-Bug.png" alt="linked" class="corplogo">
+                </a></li>
             </ul>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Irena Nguyen. All rights reserved.</p>
+        <p class="credit">&copy; 2024 Irena Nguyen. All rights reserved.</p>
     </footer>
     <script src="script.js"></script>
 </body>

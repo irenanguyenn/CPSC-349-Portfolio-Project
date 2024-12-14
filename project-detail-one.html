@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Katibeh&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html">
+                <img src="img/logo.png" alt="Logo" class="logo">
+            </a>            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <div class="nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="skills.html">Skills</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="project-details">
+            <div class="project-container">
+                <h1>FTP Server and Client</h1>
+                <p><b>Description: </b> The FTP Server and Client was designed to showcase our understanding of networking protocols, socket 
+                    programming, and the architecture between server and client for class CPSC 471: Computer Communications. The system 
+                    demonstrates essential FTP functionalities, including uploading, downloading, and managing files between client and server.</p>
+                <p><b>Technologies Used:</b>
+                <ul>
+                    <li> Programming Language: <i>Python</i></li>
+                    <li> Core Libraries: <i>socket</i></li>
+                </ul></p>
+                <p><b> Features:</b> 
+                    <ul>
+                        <li> File Uploads and Downloads</li>
+                        <li> File Directory Management</li>
+                        <li> Error Handling</li>
+                    </ul>
+                </p>
+                <p><b>Challenges:</b> 
+                <ul>
+                    <li>Ensuring data integrity was our priority as file transfers needed to be accurate, with no data loss or corruption. 
+                        To prevent such incident to occur, checksum verification was implemented.
+                    </li>
+                    <li>
+                        Implementing FTP protocol standards was difficult as we had little understanding of the commands while adhering to protocol
+                        standards, but after following RFC documentation for FTP protocols and creating modular code for command handling, implementation
+                        was a breeze. 
+                    </li>
+                </ul></p>
+                <p><b>Outcome:</b> The project successfully demonstrated a functional FTP system, providing a hands-on understanding of 
+                    client-server communication and network programming. It served as an excellent learning experience for real-world 
+                    implementation of networking concepts.</p>
+                <h2>Screenshots</h2>
+                <div class="screenshots">
+                    <img src="ftp/1.png" alt="Screenshot 1">
+                    <img src="ftp/2.png" alt="Screenshot 2">
+                    <img src="ftp/3.png" alt="Screenshot 3">
+                    <img src="ftp/4.png" alt="Screenshot 4">
+                    <img src="ftp/5.png" alt="Screenshot 5">
+                </div>
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="https://github.com/irenanguyenn/Mini-FTP.git" target="_blank">FTP Server</a></li>
+                </ul>    
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="credit">&copy; 2024 Irena Nguyen. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

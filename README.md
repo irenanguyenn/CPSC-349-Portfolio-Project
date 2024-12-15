@@ -51,7 +51,7 @@ If you use Visual Studio Code, you can run the project using the Live Server ext
 
 # Hosting
 The portfolio is hosted on GitHub Pages and accessible at:
-Live Site
+Live Site: https://irenanguyenn.github.io/CPSC-349-Portfolio-Project/
 
 # Contact
 Feel free to connect with me:

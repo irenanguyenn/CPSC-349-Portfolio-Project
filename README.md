@@ -26,8 +26,10 @@ Welcome to my Personal Portfolio Website, a project designed to showcase my skil
   - HTML5 
   - CSS3 
   - JavaScript 
-  - Font Awesome 
+  - Font Awesome for the navigation bar
   - Google Fonts for typography.
+  - Github Logo
+  - LinkedIn Logo
     
 # How to Run Locally
 1. Clone the Repository
@@ -46,14 +48,12 @@ If you use Visual Studio Code, you can run the project using the Live Server ext
   - A consistent navigation bar appears on all pages for ease of use.
 3. Clean Design
   - Consistent color scheme, typography, and smooth transitions enhance the user experience.
-4. Project Screenshots
 
-
-#Hosting
+# Hosting
 The portfolio is hosted on GitHub Pages and accessible at:
 Live Site
 
-##Contact
+# Contact
 Feel free to connect with me:
 
 GitHub: irenanguyenn

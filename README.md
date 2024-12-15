@@ -56,5 +56,5 @@ Live Site
 # Contact
 Feel free to connect with me:
 
-GitHub: irenanguyenn
-LinkedIn: Irena Nguyen
+1. GitHub: irenanguyenn
+2. LinkedIn: Irena Nguyen

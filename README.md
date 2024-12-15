@@ -29,19 +29,16 @@ Welcome to my Personal Portfolio Website, a project designed to showcase my skil
   - Font Awesome 
   - Google Fonts for typography.
     
-#How to Run Locally
+# How to Run Locally
 1. Clone the Repository
-bash
-Copy code
 ```git clone https://github.com/irenanguyenn/CPSC-349-Portfolio-Project.git```
 2. Navigate to the Project Directory
-bash
-Copy code
 ```cd CPSC-349-Portfolio-Project```
 3. Open in Browser:
   Open the index.html file directly in your web browser.
   Optional: Live Server
 If you use Visual Studio Code, you can run the project using the Live Server extension for a better development experience.
+
 #Project Highlights
 1. Responsive Design
   - The website adapts seamlessly to different devices, including desktops, tablets, and mobile phones.
@@ -52,7 +49,7 @@ If you use Visual Studio Code, you can run the project using the Live Server ext
 4. Project Screenshots
 
 
-##Hosting
+#Hosting
 The portfolio is hosted on GitHub Pages and accessible at:
 Live Site
 

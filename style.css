@@ -355,7 +355,7 @@ li {
     border-radius: 10px;
 } 
 #js {
-    width: 65%; 
+    width: 50%; 
     color: #ffffe4; 
     background-color: #82b181;
     padding-top: 2px;
@@ -371,7 +371,7 @@ li {
     border-radius: 10px;
 } 
 #adaptive {
-    width: 90%; 
+    width: 80%; 
     color: #ffffe4; 
     background-color: #82b181;
     padding-top: 2px;
@@ -379,7 +379,7 @@ li {
     border-radius: 10px;
 } 
 #collab {
-    width: 80%; 
+    width: 90%; 
     color: #ffffe4; 
     background-color: #f2a7a0;
     padding-top: 2px;
@@ -387,7 +387,7 @@ li {
     border-radius: 10px;
 } 
 #time {
-    width: 65%; 
+    width: 100%; 
     color: #ffffe4; 
     background-color: #82b181;
     padding-top: 2px;
